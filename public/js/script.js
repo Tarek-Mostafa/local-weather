@@ -16,7 +16,7 @@ $.getJSON('https://ipinfo.io/geo', function(response) {
 	
 	// Get weather degree and state
 	$.ajax({
-		url: "http://api.openweathermap.org/data/2.5/weather?lat="+latitude+"&lon="+longitude+"&appid=5aa4502d6d6fd1a515d9197dcff31cfc",
+		url: "//api.openweathermap.org/data/2.5/weather?lat="+latitude+"&lon="+longitude+"&appid=5aa4502d6d6fd1a515d9197dcff31cfc",
 		dataType: 'json',
 		cache: false,
 		success: function(data) {
